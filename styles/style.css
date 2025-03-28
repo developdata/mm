@@ -1,0 +1,249 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  header {
+    /* background-image: url('your-image-path.jpg'); 
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  */
+    padding: 20px 0;  /* Adjust padding for the header */
+    
+    justify-content: space-between;  /* Distribute space between items */
+    align-items: center;  /* Center items vertically */
+    border-bottom: solid;
+    border-color: grey;
+  }
+  
+  header .logo {
+    display: inline-flex;  /* Ensure the logo is only as wide as the content */
+  align-items: center;  /* Vertically center the <h1> */
+  margin-right: 20px;  /* Space between the logo and the menu */
+  background-color: aqua;
+  }
+  
+  header .logo h1 {
+    font-size: 24px;
+    background-color: pink;
+    width: 18px;
+    margin: 0;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;  /* Align the menu to the right */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Mobile Responsiveness - Change layout to vertical on smaller screens */
+  @media (max-width: 500px) {
+    nav ul {
+      display: flex;  /* Keep the menu items visible */
+      flex-direction: column;  /* Stack the items vertically */
+      align-items: flex-start;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+  
+    nav ul li {
+      margin: 10px 0;  /* Spacing between menu items */
+      text-align: center;  /* Center the menu items */
+    }
+  
+    nav ul li a {
+      font-size: 20px;  /* Larger font size for mobile */
+ 
+    }
+  }
+  
+  
+  section {
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Index Page */
+  .home {
+    /* background-color: #4CAF50; */
+    color: black;
+  }
+  
+  .home .images img {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px;
+  }
+  
+  /* Work Page */
+  .work .work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .work-gallery .gallery-item {
+    width: 48%;
+    text-align: center;
+  }
+  
+  .work-gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-gallery p {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  
+/* Style for About Section */
+/* #about {
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+}
+
+#about .content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#about h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#about p {
+  font-size: 18px;
+  color: #333;
+}
+
+#about a {
+  color: #008CBA;
+  text-decoration: none;
+}
+
+#about a:hover {
+  color: #005f75;
+}
+
+#about img {
+  margin-left: 10px;
+  vertical-align: middle;
+} */
+
+/* Example Section Styling */
+#examples {
+  padding: 40px 0;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+#examples .content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#examples h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.pinterest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Dynamic grid layout */
+  gap: 20px;  /* Space between items */
+  justify-items: center;  /* Center align items */
+}
+
+.grid-item {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  max-width: 100%;
+}
+
+.media-image {
+  width: 100%;  /* Image takes the full width of its container */
+  height: auto;
+  border-radius: 5px;
+}
+
+audio, video {
+  width: 100%;  /* Make the media elements take up the full width */
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .pinterest-grid {
+    grid-template-columns: 1fr; /* Stack items vertically on small screens */
+  }
+}
+
+
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .work-gallery .gallery-item {
+      width: 100%;
+    }
+  }
+  
