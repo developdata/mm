@@ -30,7 +30,7 @@ body, html {
     display: inline-flex;  /* Ensure the logo is only as wide as the content */
   align-items: center;  /* Vertically center the <h1> */
   margin-right: 20px;  /* Space between the logo and the menu */
-  background-color: aqua;
+  /* background-color: aqua; */
   }
   
   header .logo h1 {
@@ -40,10 +40,16 @@ body, html {
     margin: 0;
     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  */
   }
+
+  header .logo img{
+    width: 30%;
+    height: 30%;
+  }
   
   nav {
     display: flex;
     justify-content: flex-end;  /* Align the menu to the right */
+    margin-right: 20px;
   }
   
   nav ul {
@@ -67,6 +73,11 @@ body, html {
   
   /* Mobile Responsiveness - Change layout to vertical on smaller screens */
   @media (max-width: 500px) {
+
+    header .logo img{
+      width: 50%;
+      height: 50%;
+    }
     nav ul {
       display: flex;  /* Keep the menu items visible */
       flex-direction: column;  /* Stack the items vertically */
