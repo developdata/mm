@@ -1,0 +1,128 @@
+.littleLogo {
+    width: 30px;
+    display: inline-flex; 
+  }
+  
+  .manifesto {
+    text-align: center;
+    background-color: #525355;
+    color: white;
+    padding: 15px 20px;
+  }
+  
+  .manifesto h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #D280FF;
+  }
+  
+  .manifesto p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  main {
+    padding: 40px 20px;
+  }
+  
+  /* Principles Grid */
+  .principles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  /* Responsive grid */
+    gap: 20px;
+  }
+  
+  .principle {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(232, 21, 255, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .principle img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  .principle h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #525355;
+  }
+
+  .echo-effect {
+    display: flex;  /* Keep all text in one line */
+    align-items: center;  /* Vertically align items */
+  }
+  
+  .echo {
+    display: inline-block;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;  /* Space between each word/number */
+  }
+  
+  .echo:nth-child(5) {
+    font-size: 48px;
+    color:#D280FF
+  }
+  
+  .echo:nth-child(4) {
+    font-size: 40px;
+    color: #7b7b7b;
+    margin-left: 10px;
+  }
+  
+  .echo:nth-child(3) {
+    font-size: 32px;
+    color: #999;
+    margin-left: 10px;
+  }
+  
+  .echo:nth-child(2) {
+    font-size: 24px;
+    color: #ccc;
+    margin-left: 10px;
+  }
+  .echo:nth-child(1) {
+    font-size: 16px;
+    color: #e1e1e1;
+    margin-left: 10px;
+  }
+  
+  
+  .principle p {
+    font-size: 16px;
+    color: #555;
+  }
+
+.flex-paragraphs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+  }
+  
+  .flex-paragraphs h2, p{
+    margin: 0;
+    padding: 10px;
+   
+  }
+  
+  .flex-paragraphs .wide {
+    flex: 2;
+    min-width: 250px;
+    box-shadow: 0 4px 6px rgba(232, 21, 255, 0.1);
+    border-radius: 8px;
+  }
+  
+  .flex-paragraphs .narrow {
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 4px 6px rgba(232, 21, 255, 0.1);
+    border-radius: 8px;
+  }
+  

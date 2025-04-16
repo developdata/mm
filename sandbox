@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Website</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <header>
+    <div class="container">
+      <!-- Left-aligned logo -->
+      <div class="logo">
+        <h1>My Service</h1>
+      </div>
+      
+      <!-- Navigation menu (right-aligned) -->
+      <nav role="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#work">Examples</a></li>
+          <li><a href="#contact">Contact/About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Index Page (Home) -->
+  <section id="home" class="section home">
+    <div class="content">
+      <h1>Welcome to the site</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam urna lorem, tristique sed elit eget, dignissim convallis justo. Donec urna elit, pretium nec ultricies id, blandit sed risus. Mauris eleifend aliquet ipsum. Duis non erat auctor, dignissim ligula in, cursus nibh. Integer non sapien id leo volutpat cursus. Praesent accumsan a arcu in gravida. Nullam sodales tortor in mollis semper. Fusce at orci neque. Sed ac nulla eu ex tincidunt congue vitae ac sem.</p>
+
+      <p>nteger venenatis lorem id viverra congue. Aenean dolor felis, ullamcorper eu pulvinar id, lacinia rutrum sem. Donec condimentum porta velit ut vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla quis lacus in lacus varius lacinia. Quisque ultricies eu erat eu tristique. Donec vitae diam quis nibh finibus lobortis quis eget purus. In quis quam efficitur purus condimentum congue. Quisque sed elit purus. Praesent eget ipsum quis nunc sodales vehicula. Ut ut eros pellentesque nibh feugiat tincidunt iaculis vitae tellus. Pellentesque id odio id nulla posuere pretium. Donec placerat tortor at felis varius dignissim. Donec at est placerat, tincidunt leo sed, condimentum nunc. Sed auctor velit vitae est accumsan, non semper nisl viverra. Curabitur sit amet aliquet erat.</p>
+        
+        
+
+        <p>Mauris ultricies justo ex, nec auctor ex feugiat a. Pellentesque auctor quam eget nulla viverra, eu egestas ante sodales. Nullam vitae pellentesque quam. Nullam at enim est. Sed dignissim luctus tincidunt. Pellentesque vehicula aliquet augue a dignissim. Nam nec arcu sit amet lectus feugiat vehicula in vulputate ligula. Praesent iaculis gravida sapien eu euismod. Nullam vitae ornare arcu, nec dignissim lacus.</p>
+        
+        
+        
+      <p>Praesent eget lectus eu dui sagittis accumsan. Morbi sed velit rutrum, elementum elit vel, semper mi. Fusce lacinia orci a magna placerat varius. Maecenas tristique efficitur hendrerit. Mauris elementum augue iaculis, malesuada ante nec, posuere velit. Pellentesque in justo turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ipsum ex.
+      </p>
+        
+       <p>Aenean id arcu quis erat pulvinar vehicula. Phasellus mollis interdum risus, at cursus lacus feugiat et. Vivamus congue convallis velit in pulvinar. Nullam in efficitur neque. Suspendisse vitae libero eros. Nam sapien sapien, aliquam et blandit ac, auctor at neque. Nulla facilisi. Aenean tempus iaculis porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+      
+       <div class="images">
+        <!-- Space for Images -->
+        <img src="images/abstactPlaceholder.jpg" alt="black and white abstract petal image used as a placeholder">
+        <img src="images/abstactPlaceholder.jpg" alt="black and white abstract petal image used as a placeholder">
+      </div>
+    </div>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2025. All rights reserved.</p>
+  </footer>
+
+  <!-- <script src="scripts/script.js"></script> -->
+</body>
+</html>
