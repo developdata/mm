@@ -35,7 +35,11 @@
   .principle {
     background-color: white;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(232, 21, 255, 0.1);
+    /* box-shadow: 0 4px 6px rgba(232, 21, 255, 0.1); */
+    border: solid;
+    border-top:1px;
+    border-bottom: 1px;
+    border-color:#D280FF;
     border-radius: 8px;
     text-align: center;
   }
@@ -115,14 +119,32 @@
   .flex-paragraphs .wide {
     flex: 2;
     min-width: 250px;
-    box-shadow: 0 4px 6px rgba(232, 21, 255, 0.1);
+    border: solid;
+    border-left:1px;
+    border-right: 1px;
+    border-color:#D280FF;
     border-radius: 8px;
+    margin-bottom: 10px;
+    /* border-top:1px;
+    border-bottom: 1px;
+    border-color:rgba(232, 21, 255); */
+    /* box-shadow: 0 4px 6px rgba(232, 21, 255, 0.1);
+    border-radius: 8px; */
   }
   
   .flex-paragraphs .narrow {
     flex: 1;
     min-width: 200px;
-    box-shadow: 0 4px 6px rgba(232, 21, 255, 0.1);
+    border: solid;
+    border-left:1px;
+    border-right: 1px;
+    border-color:#D280FF;
     border-radius: 8px;
+    margin-bottom:10px;
+    /* border-top:1px;
+    border-bottom: 1px;
+    border-color:rgba(232, 21, 255); */
+    /* box-shadow: 0 4px 6px rgba(232, 21, 255, 0.1);
+    border-radius: 8px; */
   }
   

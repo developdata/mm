@@ -146,7 +146,7 @@ body, html {
   
   
 /* Style for About Section */
-/* #about {
+#about {
   padding: 20px;
   background-color: #f8f8f8;
   margin-top: 20px;
@@ -155,7 +155,13 @@ body, html {
 #about .content {
   max-width: 800px;
   margin: 0 auto;
-  text-align: center;
+  border: solid;
+    border-left:1px;
+    border-right: 1px;
+    border-color:#D280FF;
+    border-radius: 8px;
+    margin-bottom:10px;
+  /* text-align: center; */
 }
 
 #about h2 {
@@ -170,7 +176,7 @@ body, html {
 }
 
 #about p {
-  font-size: 18px;
+  /* font-size: 18px; */
   color: #333;
 }
 
@@ -186,7 +192,7 @@ body, html {
 #about img {
   margin-left: 10px;
   vertical-align: middle;
-} */
+}
 
 /* Example Section Styling */
 #examples {
