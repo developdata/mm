@@ -166,13 +166,13 @@ body, html {
   
   
 /* Style for About Section */
-#about {
+.about {
   padding: 20px;
   background-color: #f8f8f8;
   margin-top: 20px;
 }
 
-#about .content {
+.about .content {
   max-width: 800px;
   margin: 0 auto;
   border: solid;
@@ -184,32 +184,32 @@ body, html {
   /* text-align: center; */
 }
 
-#about h2 {
+.about h2 {
   font-size: 28px;
   margin-bottom: 20px;
 }
 
-#about h3 {
+.about h3 {
   font-size: 22px;
   margin-top: 20px;
   margin-bottom: 15px;
 }
 
-#about p {
+.about p {
   /* font-size: 18px; */
   color: #333;
 }
 
-#about a {
+.about a {
   color: #008CBA;
   text-decoration: none;
 }
 
-#about a:hover {
+.about a:hover {
   color: #005f75;
 }
 
-#about img {
+.about img {
   margin-left: 10px;
   vertical-align: middle;
 }
