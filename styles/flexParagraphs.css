@@ -67,14 +67,20 @@
     font-weight: bold;
     color: #333;
     margin-right: 10px;  /* Space between each word/number */
-  }
-  
-  .echo:nth-child(5) {
     font-size: 48px;
     color:#D280FF
+    
   }
   
-  .echo:nth-child(4) {
+  .echo {
+    text-align: center;
+  }
+  /* .echo:nth-child(5) {
+    font-size: 48px;
+    color:#D280FF
+  } */
+  
+  /* .echo:nth-child(4) {
     font-size: 40px;
     color: #7b7b7b;
     margin-left: 10px;
@@ -95,7 +101,7 @@
     font-size: 16px;
     color: #e1e1e1;
     margin-left: 10px;
-  }
+  } */
   
   
   .principle p {
