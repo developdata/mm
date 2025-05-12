@@ -52,6 +52,12 @@
   }
   
   .principle h2 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    color: #D280FF;
+  }
+
+  .principle h3 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #525355;
@@ -72,7 +78,7 @@
     
   }
   
-  .echo {
+  .echo-effect h2{
     text-align: center;
   }
   /* .echo:nth-child(5) {
