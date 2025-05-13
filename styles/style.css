@@ -74,7 +74,17 @@ body, html {
     font-size: 18px;
   }
 
- 
+ blockquote {
+            margin-left: 20px;   /* Adjust left margin */
+            margin-right: 20px;  /* Adjust right margin */
+            padding-left: 10px;  /* Optional: add padding for visual emphasis */
+            padding-right: 10px; /* Optional: add padding for visual emphasis */
+            /* font-style: italic;  Optional: italic style for the quote */
+            color: #333;
+            
+            width: 80%; /* Adjust the width of the quote */
+            margin: 20px auto; /* Center the quote */
+        }
   
   .listNumber li::marker{
     font-family: Impact;
