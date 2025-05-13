@@ -74,6 +74,8 @@ body, html {
     font-size: 18px;
   }
 
+ 
+  
   .listNumber li::marker{
     font-family: Impact;
     color: #D280FF;
